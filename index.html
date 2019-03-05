@@ -14,23 +14,67 @@
         figure>img {
             max-width: 100%;
         }
-
     </style>
 </head>
 
 <body>
-    <h1># Github pages の設定</h1>
-    <p>
-        Settingを開く．
-    </p>
-    <figure>
-        <img src="./img/github%20setting.PNG" alt="">
-        <figcaption></figcaption>
-    </figure>
+    <header></header>
+    <main>
+        <h1># Github pages の設定</h1>
+        <p>
+            Settingを開く．
+        </p>
+        <figure>
+            <img src="./img/github%20setting.PNG" alt="">
+            <figcaption>Setting</figcaption>
+        </figure>
 
-    <section>
-        <h2>## 独自ドメインの設定</h2>
-    </section>
+        <p>
+            Sourceの項目でorigin/masterまたは/doc（docフォルダにhtmlを置いた場合）を設定する．
+        </p>
+        <figure>
+            <img src="./img/source%E3%81%AE%E8%A8%AD%E5%AE%9A.PNG" alt="">
+            <figcaption>Source</figcaption>
+        </figure>
+
+        <section>
+            <h2>## https対応</h2>
+            <p>
+                Enforce HTTPS にチェックを入れる．
+            </p>
+            <figure>
+                <img src="./img/enforceHTTPS.PNG" alt="">
+                <figcaption>https対応</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>## 独自ドメインの設定</h2>
+            <p>
+                独自ドメイン名を入力する．
+            </p>
+            <figure>
+                <img src="./img/github%20setting.PNG" alt="">
+                <figcaption>独自ドメインの設定</figcaption>
+            </figure>
+
+            <p>
+                ドメイン管理側では，Github Pagesで使われているDNSサーバのIPアドレスをAレコードで設定する．
+            </p>
+            <ul>
+                <li>185.199.108.153</li>
+                <li>185.199.109.153</li>
+                <li>185.199.110.153</li>
+                <li>185.199.111.153</li>
+            </ul>
+            <figure>
+                <img src="./img/freenomDNS.PNG" alt="">
+                <figcaption>ドメイン管理側の設定</figcaption>
+            </figure>
+
+        </section>
+    </main>
+    <footer></footer>
 </body>
 
 </html>
